@@ -1,0 +1,18 @@
+debug:
+server:
+  port: 6080
+  contextPath: /ssa
+spring:
+  social:
+    facebook:
+      appId: 1074465309365375
+      appSecret: 3fa8ac321c7c35ec1b8ea979f956f36c
+    twitter:
+      appId: 
+      appSecret: 
+logging:
+  level:
+    org.springframework:
+      security: INFO
+      social: INFO
+    
