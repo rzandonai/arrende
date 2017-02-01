@@ -45,7 +45,7 @@ repositories {
 dependencies {
 	compile('org.postgresql:postgresql:9.4.1210')
     compile('org.springframework.boot:spring-boot-starter-web')
-  //  compile('org.springframework.boot:spring-boot-starter-data-jpa')
+    compile('org.springframework.boot:spring-boot-starter-data-jpa')
     compile('org.springframework.boot:spring-boot-starter-data-rest')
     compile('org.springframework.boot:spring-boot-starter-validation')
 
@@ -54,6 +54,8 @@ compile('org.springframework.boot:spring-boot-starter-social-facebook')
 
     // https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-zuul
 compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-zuul', version: '1.2.4.RELEASE'
+// https://mvnrepository.com/artifact/mysql/mysql-connector-java
+compile group: 'mysql', name: 'mysql-connector-java', version: '6.0.5'
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
     testCompile group: 'junit', name: 'junit', version: '4.12'
